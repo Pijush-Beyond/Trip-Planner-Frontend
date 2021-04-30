@@ -1,0 +1,110 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #B0BEC5;
+    background-repeat: no-repeat
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px
+}
+
+.card2 {
+    margin: 0px 40px
+}
+.logoText{
+    font-family: 'Brush Script MT';
+    font-size: xx-large;
+    
+    background: -webkit-linear-gradient(#eee,rgb(29, 3, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent; 
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.image {
+    width: 750px;
+    height: 280px
+}
+
+.imageRegister {
+    width: 750px;
+    height: 380px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+
+
+
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background-color: #221DB8;
+    width: 300px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #221DB8
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 600px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        
+        margin: 20px 15px
+    }
+}
