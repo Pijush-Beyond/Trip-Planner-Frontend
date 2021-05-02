@@ -1,0 +1,7 @@
+{
+  "urls":{
+    "login": "http://localhost:3000/login/",
+    "logout": "http://localhost:3000/login/",
+    "registration": "http://localhost:3000/login/"
+  }
+}
