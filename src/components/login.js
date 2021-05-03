@@ -6,7 +6,7 @@ import Svg2 from './assets/svg2.svg'
 
 const login = () => {
   return (
-    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto h-100 w-100">
       <div className="card card0 border-0">
         <div className="row d-flex">
           <div className="col-lg-6 border-line">
@@ -40,10 +40,7 @@ const login = () => {
               </div>
 
               <div className="row px-3 mb-4">
-                <div className="custom-control custom-checkbox custom-control-inline">
-                  <input id="chk1" type="checkbox" name="chk" class="custom-control-input" />
-                  <label for="chk1" className="custom-control-label text-sm">Remember me</label>
-                </div>
+                
                 <a href="#" className="ml-auto mb-0 text-sm">Forgot Password?</a>
               </div>
               <div class="row mb-3 px-3">

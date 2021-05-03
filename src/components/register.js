@@ -6,7 +6,7 @@ import Svg2 from './assets/svg2.svg'
 
 const register = () => {
   return (
-    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-2 mx-auto">
+    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-2 mx-auto h-100 w-100">
       <div className="card card0 border-0">
         <div className="row d-flex">
           <div className="col-lg-6 border-line" >
@@ -22,18 +22,8 @@ const register = () => {
               <div className="row mb-4 px-3">
                 <h4 className="mb-0 mr-4 mt-2">Take Your First Step</h4>
               </div>
-              <div className="row px-3">
-                <label className="mb-1">
-                  <h6 className="mb-0 text-sm">First Name</h6>
-                </label>
-                <input className="mb-2" type="text" name="firstname" placeholder="Your First Name Here" />
-              </div>
-              <div className="row px-3">
-                <label className="mb-1">
-                  <h6 className="mb-0 text-sm">Last Name</h6>
-                </label>
-                <input className="mb-2" type="text" name="lastName" placeholder="Your Last Name Here" />
-              </div>
+              
+             
 
 
 
