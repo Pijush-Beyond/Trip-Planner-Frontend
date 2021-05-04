@@ -1,23 +1,14 @@
 import React from 'react'
-//import ReactDOM from 'react-dom'
 import '../style.css'
-import Svg from './assets/svg1.svg'
-import Svg2 from './assets/svg2.svg'
+import Image from './assets/image'
+
 
 const login = () => {
   return (
     <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto h-100 w-100">
       <div className="card card0 border-0">
         <div className="row d-flex">
-          <div className="col-lg-6 border-line">
-            <div className='row'>
-              <img src={Svg2} className="logo col-lg-3" />
-              <h6 className='col-lg-3 px-1 mx-5 my-5 logoText'>Been There</h6>
-            </div>
-
-            <img src={Svg} className='image' />
-
-          </div>
+          <Image />
           <div className="col-lg-6">
             <div className="card2 card border-0  py-5">
               <div className="row mb-4 px-3">
@@ -55,14 +46,11 @@ const login = () => {
             </div>
           </div>
         </div>
-        <div className="bg-blue py-4">
-          <div className="row px-3">
-            <a class="ml-4 ml-sm-5 mb-2">Contact Us</a>
-          </div>
+        <div className="bg-blue p-4">
+          <a>Contact Us</a>
         </div>
       </div>
     </div>
-
   )
 }
 
