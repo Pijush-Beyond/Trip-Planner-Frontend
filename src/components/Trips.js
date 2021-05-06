@@ -1,0 +1,112 @@
+import React from "react";
+import { Component, Fragment } from "react";
+import ReactDOM from "react-dom";
+//import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
+import '../Trips.css'
+import Kashmir_card from "./assets/Kashmir_card.jpg";
+import Meghalaya_card from "./assets/Meghalaya_card.jpg";
+import Kerala_card from "./assets/Kerala_card.jpg";
+import Up_card from "./assets/Up_card.jpg";
+import Goa_card from "./assets/Goa_card.jpg";
+import Wb_card from "./assets/Wb_card.jpg";
+import Gujarat_card from "./assets/Gujarat_card.jpg";
+import Uttarakhand_card from "./assets/Uttarakhand_card.jpg";
+import CarouselComp from "./CarouselComp";
+import TripPlanner from "./TripPlanner";
+
+class Trips extends Component{
+    constructor() {
+        super();
+        const kashmir = {
+          "name": "Kashmir",
+          "image": Kashmir_card,
+          "description": ""
+        }
+        const meghalaya = {
+            "name": "Meghalaya",
+            "image": Meghalaya_card,
+            "description": ""
+        }
+        const kerala = {
+            "name": "Kerala",
+            "image": Kerala_card,
+            "description": ""
+          }
+          const up = {
+            "name": "Uttar Pradesh",
+            "image": Up_card,
+            "description": ""
+          }
+          const goa = {
+            "name": "Goa",
+            "image": Goa_card,
+            "description": ""
+          }
+          const wb = {
+            "name": "West Bengal",
+            "image": Wb_card,
+            "description": ""
+          }
+          const uttarakhand = {
+            "name": "Uttarakhand",
+            "image": Uttarakhand_card,
+            "description": ""
+          }
+          const gujarat = {
+            "name": "Gujarat",
+            "image": Gujarat_card,
+            "description": ""
+          }
+        this.placeArr = [kashmir,meghalaya,kerala,up,goa,wb,gujarat,uttarakhand]
+      }
+        generateJSX(){
+            return(
+                this.placeArr.map(place => {
+                    return(<div className="card border-dark text-white bg-dark" id='card_item_custom'>
+                    <img className="card-img-top" src={place.image} height="350" alt="Card image cap" />
+                    <div className="card-body">
+                        <h5 className="card-title text-center">{place.name}</h5>
+                        <p className="card-text">
+                            <span>{place.description}</span><br />
+                        </p>
+                        <button type="button" className="btn btn-light btn-block" onClick={()=>{}}>Explore</button>
+                    </div>
+                    </div>)
+                })
+            )
+        
+    }
+
+    render(){
+
+        
+        return(
+            <Fragment>
+              <CarouselComp/>
+                <div className='container-fluid text-center'>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <h3 >Lets's plan the trip of your dreams...</h3>
+
+                </div>
+                <br/>
+                <div className='container-fluid'>
+                <div className='card-deck' id='card_deck_custom'>
+                        {
+                            this.generateJSX()                          
+
+                        }
+                </div>
+                </div>
+                
+                      
+                        
+            </Fragment>
+
+        )
+    }
+}
+
+export default Trips;
