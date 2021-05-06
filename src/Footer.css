@@ -1,0 +1,15 @@
+#foot{
+    text-decoration: none;
+    color:white;
+    display:inline;
+    list-style: none;
+}
+
+#nav_logo_img{
+    filter:invert(100%)
+}
+
+#nav_logo_text{
+    font-family: 'Brush Script MT';
+    font-size:x-large;
+}

@@ -1,0 +1,14 @@
+#head{
+    position: relative;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom:5px;
+    left:30px;
+    color:white;
+    font-family: 'Courier New',Courier,monospace;
+    font-size:x-large;
+    
+    
+}
