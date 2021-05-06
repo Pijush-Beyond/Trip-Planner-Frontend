@@ -2,11 +2,11 @@ import React from "react";
 import { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
-import '../Footer.css'
-import Facebook_logo from './assets/Facebook_logo.svg'
-import Instagram_logo from './assets/Instagram_logo.svg'
-import YouTube_logo from './assets/YouTube_logo.svg'
-import logo from './assets/logoNav.png'
+import '../stylesheets/Footer.css'
+import Facebook_logo from './assets/images/Facebook_logo.svg'
+import Instagram_logo from './assets/images/Instagram_logo.svg'
+import YouTube_logo from './assets/images/YouTube_logo.svg'
+import logo from './assets/images/logoNav.png'
 
 
 

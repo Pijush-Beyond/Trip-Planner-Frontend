@@ -3,13 +3,13 @@ import { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 //import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
-import '../CarouselComp.css'
-import Kashmir from "./assets/Kashmir.jpg";
-import Agra from "./assets/Agra.jpg";
-import Kerela from "./assets/Kerela.jpg";
-import Meghalaya from "./assets/Meghalaya.jpg";
-import Rajasthan from "./assets/Rajasthan.jpg";
-import Ladakh from"./assets/Ladakh.jpg";
+import '../stylesheets/CarouselComp.css'
+import Kashmir from "./assets/images/Kashmir.jpg";
+import Agra from "./assets/images/Agra.jpg";
+import Kerela from "./assets/images/Kerela.jpg";
+import Meghalaya from "./assets/images/Meghalaya.jpg";
+import Rajasthan from "./assets/images/Rajasthan.jpg";
+import Ladakh from"./assets/images/Ladakh.jpg";
 
 
 class CarouselComp extends Component {
