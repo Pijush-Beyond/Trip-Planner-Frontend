@@ -2,15 +2,15 @@ import React from "react";
 import { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 //import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
-import '../Trips.css'
-import Kashmir_card from "./assets/Kashmir_card.jpg";
-import Meghalaya_card from "./assets/Meghalaya_card.jpg";
-import Kerala_card from "./assets/Kerala_card.jpg";
-import Up_card from "./assets/Up_card.jpg";
-import Goa_card from "./assets/Goa_card.jpg";
-import Wb_card from "./assets/Wb_card.jpg";
-import Gujarat_card from "./assets/Gujarat_card.jpg";
-import Uttarakhand_card from "./assets/Uttarakhand_card.jpg";
+import '../stylesheets/Trips.css'
+import Kashmir_card from "./assets/images/Kashmir_card.jpg";
+import Meghalaya_card from "./assets/images/Meghalaya_card.jpg";
+import Kerala_card from "./assets/images/Kerala_card.jpg";
+import Up_card from "./assets/images/Up_card.jpg";
+import Goa_card from "./assets/images/Goa_card.jpg";
+import Wb_card from "./assets/images/Wb_card.jpg";
+import Gujarat_card from "./assets/images/Gujarat_card.jpg";
+import Uttarakhand_card from "./assets/images/Uttarakhand_card.jpg";
 import CarouselComp from "./CarouselComp";
 import TripPlanner from "./TripPlanner";
 

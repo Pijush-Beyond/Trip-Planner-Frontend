@@ -2,9 +2,9 @@ import React from "react";
 import { Component,Fragment } from "react";
 import ReactDOM from "react-dom";
 import {Link} from "react-router-dom";
-import "../Navbar.css";
-import logo from "./assets/logoNav.png";
-import login from "./assets/Login.svg";
+import "../stylesheets/Navbar.css";
+import logo from "./assets/images/logoNav.png";
+import login from "./assets/images/Login.svg";
 
 class Navbar extends Component {
   state = {

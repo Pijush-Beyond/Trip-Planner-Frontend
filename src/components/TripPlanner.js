@@ -2,13 +2,13 @@ import React from "react";
 import { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 //import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
-import Kashmir_back from "./assets/Kasmir_tripPlanner_first.jpg";
-import Kashmir_Day4 from "./assests/Kashmir_Day4.jpg";
-import Kashmir_Day3 from "./assets/Kashmir_Day3.jpg";
-import Kashmir_Day2 from "./assets/Kashmir_Day2.jpg";
-import Kashmir_Day1 from "./assets/Kashmir_Day1.jpg";
+import Kashmir_back from "./assets/images/Kasmir_tripPlanner_first.jpg";
+import Kashmir_Day4 from "./assests/images/Kashmir_Day4.jpg";
+import Kashmir_Day3 from "./assets/images/Kashmir_Day3.jpg";
+import Kashmir_Day2 from "./assets/images/Kashmir_Day2.jpg";
+import Kashmir_Day1 from "./assets/images/Kashmir_Day1.jpg";
 
-import "../TripPlanner.css";
+import "../stylesheets/TripPlanner.css";
 
 class TripPlanner extends Component {
   render() {
