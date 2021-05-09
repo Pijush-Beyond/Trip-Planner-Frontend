@@ -20,18 +20,19 @@ const reducer =  createSlice({
   name: 'user',
   initialState: {fetched: false},
   reducers: {
-    setuser: (state, action) => ({ ...state, data: action.payload, fetched: true}),
+    setuser: (state, action) => ({ ...state, data: action.payload}),
+    setprofile: (state, action) => {state.data.profile = action.payload},
     logout: (state) => ({ fetched: true }),
     just: () => ({ fetched: true })
   },
   extraReducers: {
-    [autologin.fulfilled]: (state, action) =>  ({ fetched: true, data: action.payload.user }),
+    [autologin.fulfilled]: (state, action) =>  ({ fetched: true, data: action.payload.data }),
     [autologin.rejected]: (state, action) => {
-      if(!action.payload || action.payload.status!==401) alert("Something went wrong!!");
+      if(!action.payload && action.payload.status!==404) alert("Something went wrong!!");
       state.fetched = true;
     },
   }
 })
 
-export const { setuser, logout} =  reducer.actions;
+export const { setuser, logout, setprofile} =  reducer.actions;
 export default reducer.reducer;

@@ -35,7 +35,7 @@ const Login = () => {
     dispatch(notloading())
   }
   
-  return  <LoginRegistration propError={error} onSubmit={onSubmit} />
+  return  redirect? <Redirect to="/home"/> : <LoginRegistration propError={error} onSubmit={onSubmit} />
 }
 
 export default Login;

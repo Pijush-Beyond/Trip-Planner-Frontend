@@ -14,7 +14,6 @@ const Component = ({ propError, registration, onSubmit }) => {
     setError({ ...error, [iTag.name]: '', error: '' });
   } 
 
-  
   return (
     <div className="d-flex flex-column min-vh-100">
       <div className="d-flex justify-content-center align-items-center bg-white login-container py-4" style={{ minHeight: 'calc(100vh - 56px)' }}>

@@ -40,7 +40,7 @@ const Register = () => {
     dispatch(notloading())
   }
 
-  return <LoginRegistration propError={error} onSubmit={onSubmit} registration/>
+  return redirect ? <Redirect to="/updateProfile"/> : <LoginRegistration propError={error} onSubmit={onSubmit} registration/>
 }
 
 export default Register;
